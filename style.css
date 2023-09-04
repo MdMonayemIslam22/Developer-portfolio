@@ -15,6 +15,8 @@ h1 {
 .flexible-container {
   display: flex;
   padding: 0 30px;
+  justify-content: center;
+  column-gap: 50px;
 }
 .half-width {
   flex: 0 0 40%;
@@ -54,11 +56,10 @@ h1 {
 h2 {
   font-size: 35px;
 }
-.Experiences-item {
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
+.experiences-item {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
   padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
@@ -83,9 +84,16 @@ footer p {
   text-align: center;
   margin-bottom: 5%;
 }
-.Experiences-area h1 {
-  padding-bottom: 50px;
+footer b {
+  padding-bottom: 25px;
+  margin: 0;
 }
-.Experiences-item h2 h3 {
-  padding-bottom: 50px;
+.experiences-area h1 {
+  padding: 15px 0;
+}
+.experiences-item h2 {
+  padding-bottom: 25px;
+}
+.experiences-item h3 {
+  padding-bottom: 25px;
 }
