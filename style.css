@@ -83,11 +83,9 @@ h2 {
 footer p {
   text-align: center;
   margin-bottom: 5%;
+  padding: 35px 0;
 }
-footer b {
-  padding-bottom: 25px;
-  margin: 0;
-}
+
 .experiences-area h1 {
   padding: 15px 0;
 }
