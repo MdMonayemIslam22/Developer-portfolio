@@ -72,6 +72,7 @@ h2 {
   border-left: 7px solid;
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
+  padding-bottom: 48px;
 }
 #baby-web-experience {
   border-left: 7px solid;
@@ -81,4 +82,10 @@ h2 {
 footer p {
   text-align: center;
   margin-bottom: 5%;
+}
+.Experiences-area h1 {
+  padding-bottom: 50px;
+}
+.Experiences-item h2 h3 {
+  padding-bottom: 50px;
 }
